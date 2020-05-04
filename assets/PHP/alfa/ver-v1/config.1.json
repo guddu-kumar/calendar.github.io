@@ -1,0 +1,42 @@
+{
+	"Bitnymex":{
+		"UploadPath":"C:/Tradecore/Bitnymex.com/uploads",
+		"LinkURL":"https://www.bitnymex.com/uploads",
+		"FileName":"uploads"
+	},
+	"Demo":{
+		"UploadPath":"C:/Tradecore/demo/uploads",
+		"LinkURL":"http://80.241.217.170:7860/uploads",
+		"FileName":"uploads"
+
+	},
+	"Redstar":{
+		"UploadPath":"C:/Tradecore/TradersRoom/Redforex_tradesroom/docs",
+		"LinkURL":"https://client.redstarfx.com/docs",
+		"Id":"id-proof",
+		"Addr":"address-proof",
+		"Other":"others-proof",
+		"FileName":"uploads"
+	}, 
+	"EonefxKyc": {
+		"UploadPath": "C:/Tradecore/TradersRoom/tradersRoomV3/docs",
+		"LinkURL": "http://173.249.5.26:8025/docs",
+		"Id": "id-proof",
+		"Addr": "address-proof",
+		"Other": "others-proof",
+		"FileName": "uploads"
+	},
+	"uploadProfileImage": {
+		"UploadPath": "C:/Tradecore/TradersRoom/tradersRoomV3/docs/profile-picture",
+		"LinkURL": "http://173.249.5.26:8025/docs",
+		"Id": "id-proof",
+		"Addr": "address-proof",
+		"Other": "others-proof",
+		"FileName": "uploads"
+	}, 
+	"uploadDipositPaymentReceipt": {
+		"UploadPath": "C:/Tradecore/TradersRoom/tradersRoomV3/docs/payment-receipt",
+		"LinkURL": "http://173.249.5.26:8025/docs",
+		"FileName": "uploads"
+	}
+}

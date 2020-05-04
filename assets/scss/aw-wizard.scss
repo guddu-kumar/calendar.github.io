@@ -1,0 +1,179 @@
+// Common aw wizard Style
+aw-wizard.aw-wizard-css {
+    position: relative;
+    padding-top: 20px;
+    aw-wizard-navigation-bar.horizontal ul.steps-indicator li {
+        &.current {
+            .label {
+                color: #FFF;
+            }
+            .step-indicator {
+                border-color: #007bff !important;
+                background-color: #007bff !important;
+                color: #FFF !important;
+            }
+        }
+        &.done {
+            .label {
+                color: #FFF;
+            }
+            .step-indicator {
+                border-color: #28a745 !important;
+                background-color: #28a745 !important;
+                color: #FFF !important;
+            }
+        }
+    }
+    aw-wizard-navigation-bar {
+        ul.steps-indicator li.current:after {
+            background-color: red !important;
+        }
+    }
+    aw-wizard-navigation-bar.horizontal.large-filled {
+        ul.steps-indicator li .step-indicator {
+            top: -50px;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            -webkit-transition: 0.25s;
+            transition: 0.25s;
+            border-radius: 100%;
+            background-color: #E6E6E6;
+        }
+        ul.steps-indicator li:after {
+            background-color: #E6E6E6;
+            content: '';
+            position: absolute;
+            height: 1px;
+            top: -25px;
+        }
+        ul.steps-indicator li {
+            z-index: 1;
+        }
+        ul.steps-indicator li:after {
+            z-index: -1;
+        }
+        ul.steps-indicator li:after {
+            width: 100% !important;
+            left: 0px !important;
+        }
+        ul.steps-indicator li:first-child:after {
+            width: 50% !important;
+            left: 50% !important;
+        }
+        ul.steps-indicator li:last-child:after {
+            width: 50% !important;
+            right: 50% !important;
+        }
+        ul.steps-indicator li.done:after {
+            background-color: #28a745 !important;
+        }
+        ul.steps-indicator li.current:after {
+            background-color: #007bff !important;
+        }
+        ul.steps-indicator li.done.current.editing:after {
+            background-color: #28a745 !important;
+        }
+    }
+    .steps-indicator {
+        padding: 40px 0 20px 0 !important;
+        .label {
+            position: Relative;
+            width: 100%;
+            margin-bottom: 20px;
+            text-transform: capitalize;
+            font-weight: 400;
+            font-size: 13px;
+            color: #737373 !important;
+            margin-top: 10px;
+        }
+    }
+    .steps-indicator {
+        .label:after {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 100%;
+            font-size: 11px;
+            font-weight: normal;
+            width: 100%;
+            text-align: center;
+            padding: 0 10%;
+            text-transform: none;
+            color: #a4b0b9;
+            margin-top: 5px;
+        }
+    }
+    .step-body {
+        background: #eff3f6;
+        border: 1px solid #dfe2e4;
+        .btn {
+            text-align: left;
+            line-height: 1;
+            padding: 8px 12px;
+            font-size: 14px;
+            font-weight: 500;
+            // box-shadow: 1px 1px #094a90;
+            text-shadow: 1px 1px 1px #094a90;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .btn span {
+            display: block;
+            font-size: 11px;
+            font-weight: 500;
+        }
+        .step-heading-section {
+            line-height: 18px;
+            .title {
+                font-size: 15px;
+                font-weight: 400;
+                margin: 0px;
+                padding: 0px
+            }
+            .description {
+                font-size: 12px;
+                color: #a4b0b9;
+            }
+        }
+        .form-group label {
+            // font-size: 14px;
+            // font-weight: 500;
+        }
+    }
+}
+
+#configure-account-step .steps-indicator li:nth-child(1) .label:after {
+    content: "Enter your account number & password details";
+}
+
+#live-account-step .steps-indicator li:nth-child(1) .label:after {
+    content: "Your profile information";
+}
+
+#demo-account-step .steps-indicator li:nth-child(1) .label:after {
+    content: "Your profile information";
+}
+
+#configure-account-step .steps-indicator li:nth-child(2) .label:after {
+    content: "Confirm your account details";
+}
+
+#live-account-step .steps-indicator li:nth-child(2) .label:after {
+    content: "Choose your account plan & select leverage";
+}
+
+#demo-account-step .steps-indicator li:nth-child(2) .label:after {
+    content: "Choose your account plan , select amount and password details";
+}
+
+#configure-account-step .steps-indicator li:nth-child(3) .label:after {
+    content: "Check your status for configure account";
+}
+
+#live-account-step .steps-indicator li:nth-child(3) .label:after {
+    content: "Check your status for live account";
+}
+
+#demo-account-step .steps-indicator li:nth-child(3) .label:after {
+    content: "Check your status for demo account";
+}

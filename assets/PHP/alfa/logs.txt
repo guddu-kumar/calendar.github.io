@@ -1,0 +1,2 @@
+,{"TimeStamp":"05\/14\/2018 12:24:40 pm","Body":{"route":"v1\/common\/log"},"Request":{"route":"v1\/common\/log"},"Url":"https:\/\/www.bitnymex.com\/alfa\/v1\/common\/log"}
+,{"TimeStamp":"05\/14\/2018 12:25:07 pm","Body":{"route":"v1\/common\/log"},"Request":{"route":"v1\/common\/log"},"Url":"https:\/\/www.bitnymex.com\/alfa\/v1\/common\/log"}

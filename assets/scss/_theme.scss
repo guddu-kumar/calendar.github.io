@@ -1,0 +1,23 @@
+$headerTheme: ( light: ( backgroundColor: #FFF, borderColor:#dcdcdc, textColor:#333, hoverColor: #0168fa, hoverBackgroundColor: rgba(234, 235, 243, 0.5), dropdownBgColor: #FFF, dropdownBorderColor: #f1f1f1, indicatorColor:#0168fa, logoColor: #FFF, logoBgColor: #0168fa, disableColor:#9e9e9e, placeholderColor: #637890, activeItemColor: #FFF, ), dark:( backgroundColor: #2a3444, borderColor:#4f5969, textColor:#8699ad, hoverColor: #FFF, hoverBackgroundColor: #2a3444, dropdownBgColor: #363e4a, dropdownBorderColor: #4f5969, indicatorColor:#0168fa, logoColor: #FFF, logoBgColor: #0168fa, disableColor:#9e9e9e, placeholderColor: #637890, activeItemColor: #FFF, ));
+$asidebarTheme: ( light: ( backgroundColor: #fff, borderColor:#dcdcdc, textColor:#333, hoverColor: #0168fa, hoverBackgroundColor: rgba(234, 235, 243, 1), disableColor:#9e9e9e, activeItemColor: #0168fa, logoColor: #FFF, logoBgColor: #0168fa, dropdownBackgroundColor: rgba(234, 235, 243, 0.6), submenuBackgroundColor: rgba(234, 235, 243, 0.5), ), dark:( backgroundColor: #2a3444, borderColor:#4f5969, textColor:#8699ad, hoverColor: #FFF, hoverBackgroundColor: rgba(64, 76, 95, 0.8), disableColor:#9e9e9e, activeItemColor: #FFF, logoColor: #FFF, logoBgColor: #0168fa, dropdownBackgroundColor: rgba(64, 76, 95, 0.5), submenuBackgroundColor: rgba(64, 76, 95, 0.3), ));
+$contentTheme: ( light: ( backgroundColor: #eff3f6, foregroundColor: #FFF, linkColor: #007bff, primaryTextColor:#333, disableColor:lighten(#333, 30%), secondaryTextColor:lighten(#333, 10%), borderColor:#dcdcdc, activeColor: #000, ), dark:( backgroundColor: #202733, foregroundColor: #2a3444, linkColor: #007bff, primaryTextColor:#9eb3c9, disableColor:darken(#9eb3c9, 20%), secondaryTextColor:darken(#9eb3c9, 10%), borderColor:lighten(#2a3444, 10%), activeColor: #FFF, ));
+// $aw-colors: (
+//   '_': (
+//     'default': (
+//       'border-color-default': #76b900,
+//       'background-color-default': red,
+//       'symbol-color-default': #68aa20,
+//       'border-color-hover': #569700,
+//       'background-color-hover': null,
+//       'symbol-color-hover': #569700,
+//     ),
+//     'current': (
+//       'border-color-default': #bbdc80,
+//       'background-color-default': #bbdc80,
+//       'symbol-color-default': #808080,
+//       'border-color-hover': #76b900,
+//       'background-color-hover': #76b900,
+//       'symbol-color-hover': #808080,
+//     )
+//   )
+// );

@@ -1,0 +1,36 @@
+.modal-dialog {
+    width: 100%;
+    max-width: 600px;
+    .modal-header {
+        background: #007bff;
+        color: #FFF;
+        padding: 10px 10px;
+        flex-flow: column;
+        .modal-title {
+            font-size: 15px;
+            margin-bottom: 0px;
+            font-weight: 500;
+        }
+        .sub-title {
+            font-size: 13px;
+            margin-bottom: 0px;
+        }
+        .close {
+            position: absolute;
+            right: 10px;
+            top: 14px;
+            color: #FFF
+        }
+    }
+    .modal-body {
+        background: #eff3f6;
+        border-radius: 0px 0px 4px 4px;
+        padding-bottom: 10px;
+        .title {
+            font-size: 13px
+        }
+    }
+    .modal-footer {
+        background: #eff3f6;
+    }
+}

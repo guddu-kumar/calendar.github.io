@@ -1,0 +1,17 @@
+{
+	"TESTNEW":{
+		"UploadPath": "C:/Tradecore/Tradersroom/client.traderscabinet.com/tr_test/assets/Upload/docs",
+	 	"LinkURL": "http://client.traderscabinet.com/tr_test/assets/Upload/docs",
+	 	"FileName": "docs"
+	},
+  "uploadReceit":{
+		"UploadPath": "C:/Tradecore/Tradersroom/client.traderscabinet.com/tr_test/assets/Upload/receipt",
+		"LinkURL": "http://client.traderscabinet.com/tr_test/assets/Upload/receipt",
+		"FileName": "receipt"
+	},
+  "profilepic":{
+		"UploadPath": "C:/Tradecore/jay/TraderRoom_Demo/assets/Upload/profilepic",
+	 	"LinkURL": "http://client.traderscabinet.com/tr_test/assets/Upload/profilepic",
+	 	"FileName": "profilepic"
+	}
+}

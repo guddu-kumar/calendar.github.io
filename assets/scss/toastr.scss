@@ -1,0 +1,231 @@
+// Position
+.toast-center-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.toast-top-center {
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+.toast-bottom-center {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.toast-top-full-width {
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+.toast-bottom-full-width {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.toast-top-left {
+    top: 12px;
+    left: 12px;
+}
+
+.toast-top-right {
+    top: 12px;
+    right: 12px;
+}
+
+.toast-bottom-right {
+    right: 12px;
+    bottom: 12px;
+}
+
+.toast-bottom-left {
+    bottom: 12px;
+    left: 12px;
+}
+
+.toast-container.toast-top-center .ngx-toastr,
+.toast-container.toast-bottom-center .ngx-toastr {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.toast-container.toast-top-full-width .ngx-toastr,
+.toast-container.toast-bottom-full-width .ngx-toastr {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// Toast
+.toast-container {
+    pointer-events: none;
+    position: fixed;
+    z-index: 999999;
+    .ngx-toastr {
+        // background: #FFF;
+        border-radius: 4px;
+        position: relative;
+        overflow: hidden;
+        margin: 0 0 6px;
+        padding: 0.75rem 1.25rem 0.75rem 50px;
+        width: 300px;
+        background-position: 15px center;
+        background-repeat: no-repeat;
+        background-size: 24px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.03);
+        pointer-events: auto;
+        line-height: 20px;
+        .toast-title {
+            font-weight: bold;
+        }
+        .toast-message {
+            word-wrap: break-word;
+        }
+        .toast-message a:hover {
+            text-decoration: underline;
+        }
+        .toast-close-button {
+            position: relative;
+            right: -0.3em;
+            top: -0.3em;
+            float: right;
+            font-size: 24px;
+            font-weight: lighter;
+            color: inherit;
+            text-shadow: 0 1px 0 #fff;
+            opacity: 0.5;
+            background: transparent;
+            border: 0;
+            padding: 0;
+        }
+        .toast-progress {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 4px;
+            background-color: #000000;
+            opacity: 0.3;
+        }
+        .toast-close-button:hover,
+        .toast-close-button:focus {
+            color: #000000;
+            text-decoration: none;
+            cursor: pointer;
+            opacity: 0.75;
+        }
+    }
+    .ngx-toastr:before {
+        direction: ltr;
+        display: inline-block;
+        font-family: 'Material Icons';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: normal;
+        line-height: 1;
+        text-transform: none;
+        white-space: nowrap;
+        word-wrap: normal;
+        position: absolute;
+        left: 12px;
+        font-size: 30px;
+        top: 17px;
+    }
+    .ngx-toastr:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        opacity: 1;
+        cursor: pointer;
+    }
+}
+
+.toast-title {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    margin: 0 !important;
+}
+
+.toast-message {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.toast-success {
+    color: #FFF;
+    background-color: #43d787;
+    border: 1px solid #43d787;
+}
+
+.toast-success:before {
+    content: 'check_circle';
+    color: #a1ebc3;
+}
+
+.toast-error {
+    color: #FFF;
+    background-color: #e96245;
+    border: 1px solid #e96245;
+}
+
+.toast-error:before {
+    content: 'error';
+    color: #f4ac90;
+}
+
+.toast-info {
+    color: #FFF;
+    background-color: #0086d6;
+    border: 1px solid #0086d6;
+}
+
+.toast-info:before {
+    content: 'info';
+    color: #80c2ea;
+}
+
+.toast-warning {
+    color: #FFF;
+    background-color: #ffbb00;
+    border: 1px solid #ffbb00;
+}
+
+.toast-warning:before {
+    content: 'warning';
+    color: #ffdd80;
+}
+
+// Responsive Design
+@media all and (max-width: 240px) {
+    .toast-container .ngx-toastr.div {
+        padding: 8px 8px 8px 50px;
+        width: 11em;
+    }
+    .toast-container .toast-close-button {
+        right: -0.2em;
+        top: -0.2em;
+    }
+}
+
+@media all and (min-width: 241px) and (max-width: 480px) {
+    .toast-container .ngx-toastr.div {
+        padding: 8px 8px 8px 50px;
+        width: 18em;
+    }
+    .toast-container .toast-close-button {
+        right: -0.2em;
+        top: -0.2em;
+    }
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+    .toast-container .ngx-toastr.div {
+        padding: 15px 15px 15px 50px;
+        width: 25em;
+    }
+}

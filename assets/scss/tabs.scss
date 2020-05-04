@@ -1,0 +1,85 @@
+.tabs-container {
+    margin: 0px;
+    padding: 0px;
+    .tabs-heading {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        .tabs-item {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            position: relative;
+            margin-right: 5px;
+            a {
+                color: #000;
+                text-decoration: none;
+                font-size: 13px;
+                font-weight: 400;
+                display: block;
+                position: relative;
+                text-transform: capitalize;
+                transition: all .4s ease;
+                padding: 10px 20px !important;
+                .material-icons {
+                    font-size: 24px;
+                    position: relative;
+                    top: 3px;
+                    margin-right: 2px;
+                    color: #007bff;
+                }
+                .tab-text {
+                    position: relative;
+                    top: -3px;
+                }
+            }
+        }
+        .tabs-item.item-with-icon {
+            a {
+                padding: 6px 20px !important;
+                .material-icons {
+                    font-size: 22px;
+                }
+            }
+        }
+        .tabs-item.active,
+        .tabs-item:hover {
+            background: #FFF;
+            a {
+                color: #075db9;
+                background: #f2f3f8;
+                transition: all .4s ease;
+                &:before {
+                    content: " ";
+                    position: absolute;
+                    width: 100%;
+                    left: 0;
+                    right: 0px;
+                    top: -2px;
+                    border-bottom: 4px solid #007bff;
+                    transition: all .4s ease;
+                }
+            }
+        }
+        .tabs-item.active {
+            a {
+                &:after {
+                    content: "";
+                    position: absolute;
+                    bottom: -12px;
+                    right: 45%;
+                    width: 0.75rem;
+                    height: 0.75rem;
+                    -webkit-transform: rotate(45deg) translate(-7px);
+                    transform: rotate(45deg) translate(-7px);
+                    border-top: 1px solid;
+                    border-left: 1px solid;
+                    z-index: 10;
+                    box-sizing: border-box;
+                    background: #FFF;
+                    border-color: #dee2e6;
+                }
+            }
+        }
+    }
+}
